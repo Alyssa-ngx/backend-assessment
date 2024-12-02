@@ -10,6 +10,8 @@
    ```bash
    npm install
 3. Setup MYSQL database and seed data:
+    ```bash
     mysql -u root -p < seed/seed.sql
 4. Start the server
+    ```bash
     node src/server.js
